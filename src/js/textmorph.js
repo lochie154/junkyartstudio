@@ -4,11 +4,11 @@ const elts = {
 };
 
 const texts = [
-	"Artist",
-	"Coder",
-	"Visualist",
-	"Educator",
-	"Human Being"
+	"by amelia",
+	"slob",
+	"tinkerer",
+	"wicked typist",
+	"potato lover"
 ];
 
 const morphTime = 1.8;

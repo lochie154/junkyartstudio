@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Contact
+title: contact
 customStyle: >
   :root {
     --main-bg-color:#d9f0e0;
-    --main-bg-gradient:radial-gradient(#f1dbdb, #e2ded7, #daf7e3);
+    --main-bg-gradient:radial-gradient(rgb(255, 190, 79),rgb(204, 106, 45));
   }
 ---
 
-## Contact
+## contact
 
-Fill out the form below, or email me at <a href="mailto:paloma@palomakop.tv">paloma@palomakop.tv</a>.
+fill out the form below, or email me at <a href="mailto:junkyartstudio@gmail.com">junkyartstudio@gmail.com</a>.
 
 <form
   name="contact"
@@ -21,25 +21,25 @@ Fill out the form below, or email me at <a href="mailto:paloma@palomakop.tv">pal
   >
   <div style="display:none;">
     <label>
-      Don't fill this out if you are a person:
+      don't fill this out if you are a person:
       <input type="email" name="email-address">
     </label>
   </div>
   <label>
-    Your email:
+    your email:
     <input type="email" name="email" required>
   </label>
   <label>
-    Your name:
+    your name:
     <input type="text" name="name" required>
   </label>
   <label>
-    Your message:
+    your message:
     <textarea name="message" required></textarea>
   </label>
   <label>
-    Subscribe to my <a href="/newsletter/">newsletter</a>?
+    subscribe to my <a href="/newsletter/">snailmail</a>?
     <input type="checkbox" name="mailing-list">
   </label>
-  <button type="submit">Send</button>
+  <button type="submit">send</button>
 </form>

@@ -1,6 +1,6 @@
 body {
   text-align:center;
-  color:#ffffef;
+  color:hsl(304, 51%, 59%);
 }
 
 header {
@@ -98,13 +98,13 @@ a.now-button {
   padding:0.5em 1.5ch 0.55em;
   margin:0 0 0.75em;
   text-decoration:none;
-  color:#ffffef;
+  color:#f568f5;
 }
 
 @media (hover:hover) {
   a.now-button:hover {
-    color:#ffffef;
-    background-color:rgba(255, 255, 239, 0.3);
+    color:#ffa7fe;
+    background-color:rgb(212, 26, 233);
   }
 }
 

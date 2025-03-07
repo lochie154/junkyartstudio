@@ -8,8 +8,6 @@ customStyle: >
   }
 ---
 
-## Contact
+## contact
 
-Your message has been sent!
-
-<img src="https://s3.amazonaws.com/palomakop.tv/graphics/blob.svg" class="graphic"/>
+your message has been sent!

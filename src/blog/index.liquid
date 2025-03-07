@@ -10,14 +10,15 @@ pagination:
 customStyle: >
   :root {
     --main-bg-color:#cfd3ed;
-    --main-bg-gradient:radial-gradient(#d7e4c8, #cbe7e9, #d7dbf5);
+    --main-bg-gradient:radial-gradient(rgb(250, 252, 186),rgb(214, 255, 127));
   }
 lightbox: true
 ---
 
-<h2>Blog</h2>
+<h2>blog</h2>
 
-<p>Welcome! Feel free to browse the <a href="/blog/archive/">archive</a> or subscribe via <a href="/rss.xml" target="_blank">RSS</a>. I share upcoming things in my <a href="/newsletter">email newsletter</a> and my <a href="/now">now page</a>.</p>
+<p>welcome.</p>
+<p>browse the <a href="/blog/archive/">archive</a> or subscribe to <a href="/newsletter">junkyart cable</a>.</p>
 
 {% include "paginav.liquid" %}
 
@@ -25,7 +26,7 @@ lightbox: true
 {% for post in posts %}
   <article id="{{post.data.date}}" class="blog-post">
     <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-    <p class="metadata">{{post.data.date | addTimeToIsoDate | date: "%B %e, %Y"}} | <a href="{{ post.url }}">Permalink</a></p>
+    <p class="metadata">{{post.data.date | addTimeToIsoDate | date: "%b %e, %Y"}} | <a href="{{ post.url }}">permalink</a></p>
     {% image post.data.thumbnail, post.data.thumbnailAlt, 1440, "" %}
     {{post.content}}
   </article>

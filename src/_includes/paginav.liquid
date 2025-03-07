@@ -11,7 +11,7 @@
       </a>
     </li>
     <li>
-      <b>Page {{ pagination.pageNumber | plus: 1 }}<span class="divider">/</span>{{ pagination.pages | size }}</b>
+      <b>page {{ pagination.pageNumber | plus: 1 }}<span class="divider">/</span>{{ pagination.pages | size }}</b>
     </li>
     <li>
       <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards" {% unless pagination.href.next %}class="unavailable"{% endunless %}>
