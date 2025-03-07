@@ -17,7 +17,7 @@ fill out the form below, or email me at <a href="mailto:junkyartstudio@gmail.com
   method="POST"
   action="/contact/submitted"
   netlify-honeypot="email-address"
-  netlify
+  data-netlify="true"
   >
   <div style="display:none;">
     <label>
